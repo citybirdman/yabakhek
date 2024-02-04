@@ -9,11 +9,10 @@
     <p>
     </p>
     <script>
-        var p = document.getElementsByTagName("p")[0].innerHTML
-        var text = "يا ب"
+        document.getElementsByTagName("p")[0].innerHTML = "يا ب"
         for(var i = 0; i< 90000000; i++)
-            p += "ا";
-        p += "ختك";
+            document.getElementsByTagName("p")[0].innerHTML += "ا";
+        document.getElementsByTagName("p")[0].innerHTML += "ختك";
 
     </script>
 </body>
